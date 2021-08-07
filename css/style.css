@@ -136,36 +136,36 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .top .fh5co-social li a i {
   font-size: 14px;
 }
-.fh5co-nav #fh5co-logo {
-  font-size: 30px;
-  margin-top: 0px;
+.fh5co-nav{
+  font-size: 24px;
+  margin: 0;
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
   font-weight: 700;
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
-.fh5co-nav #fh5co-logo a {
+.fh5co-nav {
   color: #000;
   position: relative;
-  padding-left: 25px;
+ 
 }
-.fh5co-nav #fh5co-logo a span {
+.fh5co-nav {
   color: #000;
 }
-.fh5co-nav #fh5co-logo a i {
+.fh5co-nav #fh5co-logo a i .memo {
   position: absolute;
   top: 5px;
-  left: 0;
+  float: left;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-nav .menu-1 {
+  .fh5co-nav .menu-1  {
     display: none;
   }
 }
 .fh5co-nav ul {
   padding: 0;
-  margin: 25px 0 0 0;
+  margin: 15px 0 0 0;
 }
 .fh5co-nav ul li {
   padding: 0;
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 300;
 }
 .fh5co-nav ul li a {
-  font-size: 18px;
+  font-size: 17px;
   padding: 30px 15px;
   color: rgba(0, 0, 0, 0.9);
   -webkit-transition: 0.5s;
@@ -1103,7 +1103,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.1);
 }
 #fh5co-gallery h2 span:before {
-  lett: 0;
+  left: 0;
   margin-left: -125px;
 }
 #fh5co-gallery h2 span:after {
@@ -1414,11 +1414,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav-toggle {
   position: absolute;
   right: 0px;
-  top: 130px;
+  top: 9px;
   z-index: 21;
   padding: 6px 0 0 0;
   display: block;
-  margin: 0 auto;
+  margin-top: 75px;
   display: none;
   height: 44px;
   width: 44px;
@@ -1636,11 +1636,13 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 0;
 }
 
-.memo{
+.memo {
   width: 70px;
   height:70px;
-  float: left;
+ 
 }
+
+
 
 
 .icon-instagram{
