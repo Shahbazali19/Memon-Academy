@@ -1637,7 +1637,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .memo{
-  width: 130px;
+  width: 70px;
+  height:70px;
   float: left;
 }
 
