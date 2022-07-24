@@ -1376,6 +1376,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav-toggle {
   width:25px;
   height:25px;
+	margin-top:30px;
   cursor: pointer;
   text-decoration: none;
   &.active i {
@@ -1473,7 +1474,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom: none!important;
   @media screen and (max-width: $screen-sm) {
   	display: block;
-	  margin-top:35px;
+	
   }
 }
 
