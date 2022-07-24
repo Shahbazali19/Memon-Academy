@@ -1325,6 +1325,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav-toggle {
+  margin-top:-25px;
   width: 25px;
   height: 25px;
   cursor: pointer;
