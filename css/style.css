@@ -1069,7 +1069,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .staff span {
   display: block;
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 18px;
 }
 .staff:hover .staff-img:before {
   opacity: 1;
